@@ -1,4 +1,4 @@
-function p = NoisyChebTruncHetero(f, N, sigma)
+function p = algorithm_2(f, N, sigma)
     N1 = 3*floor(sqrt(N));
     K = N;
     X = chebpts(N1);
