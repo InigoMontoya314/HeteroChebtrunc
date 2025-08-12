@@ -27,9 +27,6 @@ The code implements core routines for heteroskedastic-noise–aware approximatio
 
 ## Repository contents
 
-- `MallowsCp.m` – Mallows’ \(C_p\) model selection / penalty computation used in our selection steps.
-- `Algorithm2.m` – Reference implementation of **Algorithm 2** from the paper (main pipeline).
-- `HeteroChebtrunc.m` – Heteroskedastic variant of Chebyshev truncation / approximation routine.
-
-> See the header comments in each file for function signatures and options.
-
+- `MallowsCp.m` – Mallows’ \(C_p\) model selection.
+- `Algorithm2.m` – Reference implementation of **Algorithm 2** from the paper.
+- `HeteroChebtrunc.m` – Reference implementation of **Algorithm 3** (known as HeteroChebtrunc) from the paper.
