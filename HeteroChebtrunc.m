@@ -1,4 +1,4 @@
-function p = NoisyChebTruncUnknown(f, N, sigma)
+function p = HeteroChebtrunc(f, N, sigma)
     Nhat = floor(sqrt(N)); % Number of Chebyshev points
     N1 = floor(0.1 * N); % Increased presample budget
     X = chebpts(Nhat); % Chebyshev points
